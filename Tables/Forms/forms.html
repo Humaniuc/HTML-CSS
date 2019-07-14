@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <style>
+            input{
+                margin: 2px;
+            }
+            button{
+                background-color: rgb(223, 235, 223);
+                color: rgb(37, 46, 53);
+                padding: 5px;
+                margin: 5px;
+                border-radius: 20%;
+                border: 2px solid green;
+                transform: rotate(-10deg);
+            }
+        </style>
+    </head>
+    <body>
+        <form method="GET">
+            <label>
+                Member name: 
+                <input type="text" name="memberName" required>*req
+            </label>
+            <br />
+            <label>
+                Email:
+                <input type="text" name="email" required>*req
+            </label>
+            <br />
+            <label>
+                School:
+                <input type="text" name="school" required>*req
+            </label>
+            <br />
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
